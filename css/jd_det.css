@@ -1,0 +1,79 @@
+.focus_item{
+    display: none;
+    float: left;
+    width: 1000px;
+    height: 2100px;
+    padding-left: 37px;
+    padding-top: 20px;
+    margin-right: 10px;  background-color: #fff;
+}
+.focus_item1{
+    width: 185px;
+    height: 330px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-right: 43px;
+    padding-right: 20px;
+    margin-top: 10px;  
+    border-right: 1px solid #eee; 
+}
+.imgs{
+    width: 185px;
+    height: 185px;
+}
+.price_item1{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    height: 18px;
+    color: #e1251b;
+    text-align: left;
+    margin:12px 0;
+    padding-top: 5px;
+}
+.item1_des{
+    overflow: hidden;
+    height: 20px;
+}
+.attr{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    margin-right: 7px;
+    font-size: 13px;
+    background: #f5f4f4;
+}
+.comment_box{
+    margin-top: 5px;
+}
+.comment{
+    color: #646fb0;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 14px;
+}
+.comment_xz{
+    font-size: 14px;
+}
+.bottom{
+    width: 188px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.bottom span{
+    display: inline-block;
+    width: 89px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    border: 1px solid #eee;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 13px;
+}
+.bottom span:hover{
+    cursor: pointer;
+    color: #d62f26;
+}

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>我的京东</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/my_jd.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3178987_b7hxe3sfcgo.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3178979_y1yir0c8cok.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3178987_fwtu8g8ugum.css">
+    <script src="./js/my_jd.js"></script>
+</head>
+<body>
+     <!-- 快捷导航模块 start -->
+     <section class="shortcut">
+        <div class="w">
+            <div class="box_l">
+                <ul>
+                    <li class="arrow-icon0"></li>
+                    <li class="area"><a href="#">重庆</a></li>
+                </ul>
+            </div>
+            <div class="site">
+                <div class="site_detail">
+                    <ul class="district">
+                        <li class="item">北京</li>
+                        <li class="item">上海</li>
+                        <li class="item">天津</li>
+                        <li class="item bg_current">重庆</li>
+                        <li class="item">河北</li>
+                        <li class="item">陕西</li>
+                        <li class="item">河南</li>
+                        <li class="item">辽宁</li>
+                        <li class="item">吉林</li>
+                        <li class="item">黑龙江</li>
+                        <li class="item">内蒙古</li>
+                        <li class="item">江苏</li>
+                        <li class="item">山东</li>
+                        <li class="item">安徽</li>
+                        <li class="item">浙江</li>
+                        <li class="item">福建</li>
+                        <li class="item">湖北</li>
+                        <li class="item">湖南</li>
+                        <li class="item">广东</li>
+                        <li class="item">广西</li>
+                        <li class="item">江西</li>
+                        <li class="item">四川</li>
+                        <li class="item">海南</li>
+                        <li class="item">贵州</li>
+                        <li class="item">云南</li>
+                        <li class="item">西藏</li>
+                        <li class="item">台湾</li>
+                        <li class="item">甘肃</li>
+                        <li class="item">青海</li>
+                        <li class="item">宁夏</li>
+                        </ul>
+                </div>
+                <div class="region">
+                    <p>地区专享版本</p>
+                    <ul>
+                        <li><a href="">中国港澳</a></li>
+                        <li><a href="">中国台湾</a></li>
+                        <li><a href="">京东全球</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box_r">
+                <ul>
+                    <li class="shenglue arrow-icon" >
+                        <a href="login.html" class="username" target="_blank"></a>
+                        <img src="./images/PLUS_02.png" width="30%">
+                    </li>
+                    <li class="shuxian"></li>
+                    <li>
+                        <a href="#">我的订单</a>
+                    </li>
+                    <li class="shuxian"></li>
+                    <li class="arrow-icon">
+                        <a href="#"  class="wd_jd">我的京东</a>
+                    </li>
+                    <li class="shuxian"></li>
+                    <li>
+                        <a href="#">京东会员</a>
+                    </li>
+                    <li class="shuxian"></li>
+                    <li class="arrow-icon">
+                        <a href="#" style="color: #f93031;">政企采购</a>
+                    </li>
+                    <li class="shuxian"></li>
+                    <li class="arrow-icon">
+                        <a href="#">客户服务</a>
+                    </li>
+                    <li class="shuxian"></li>
+                    <li class="arrow-icon">
+                        <a href="#">网站导航</a>
+                    </li>
+                    <li class="shuxian"></li>
+                    <li>
+                        <a href="#">手机京东</a>
+                    </li>
+                    <li>
+                        <li class="shuxian"></li>
+                        <li>
+                            <a href="#">网站无障碍</a>
+                        </li>
+                    </li>
+                </ul>
+                <!-- 鼠标滑到我的京东时显示的部分 -->
+                <div class="myjdlist">
+                    <div class="myjdlist1">
+                        <div class="fore1">
+                            <a href="">待处理订单</a>
+                            <a href="">返修退换货</a>
+                            <a href="">降价商品</a>
+                        </div>
+                        <div class="fore2">
+                            <a href="">我的问答</a>
+                            <a href="">我的关注</a>
+                        </div>
+                    </div>
+                    <div class="myjdlist2">
+                        <div class="fore1">
+                            <a href="">我的京豆</a>
+                            <a href="">我的白条</a>
+                        </div>
+                        <div class="fore2">
+                            <a href="">我的优惠券</a>
+                            <a href="">我的理财</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- 快捷导航模块 end -->
+    <!-- 头部 -->
+    <div class="navs">
+        <div class="in_navs">
+    <img src="./images/logo.png">
+        <div class="title">我的京东</div>
+        <div class="navitems">
+            <span>首页</span>
+            <span>账户设置</span>
+        </div>
+        <div class="nav_r">
+            <div class="search_box">
+                <input placeholder="小米盒子"></input>
+                <button>搜索</button>
+            </div>
+            <!-- 购物车模块 -->
+            <!-- <a class="shopcar" href="shopcar.html">
+                <i class="iconfont icon-gouwuche" style="padding-right: 5px; font-weight: bold;"></i>
+                我的购物车
+                <i class="count">3</i>
+            </a> -->
+        </div></div>
+    </div>
+    <!-- 主体部分 start -->
+    <div class="contain">
+        <div class="my_main">
+            <div class="sub">
+                <div class="my_menu">
+                    <dl class="fore1 fore">
+                        <dt class="fore_tit">我的京东</dt>
+                    </dl>
+                    <dl class="fore1 fore">
+                        <dt class="fore_tit">订单中心</dt>
+                        <dd><a>我的订单</a></dd>
+                        <dd><a>晒单评价</a></dd>
+                    </dl>
+                    <dl class="fore2 fore">
+                        <dt class="fore_tit">我的钱包</dt>
+                        <dd><a href="">查看余额</a></dd>
+                        <dd><a href="">充值余额</a></dd>
+                    </dl>
+                    <dl class="fore3 fore">
+                        <dt class="fore_tit">我的关注</dt>
+                        <dd><a href="">关注商品</a></dd>
+                        <dd><a href="">关注店铺</a></dd>
+                    </dl>
+                </div>
+            </div>
+    <!-- 我的京东首页部分 -->
+            <div class="main_box my_box" style="display: block;">
+                <div class="box0">
+                    <div class="my_user">
+                        <div class="mc">
+                          <a href="" class="avatar">
+                              <img src="./images/头像.jpg">
+                          </a>
+                          <div class="user"></div>
+                          <div class="score">
+                              <a href="">京享值2173</a>
+                              <a href="">小白守约464分</a>
+                          </div>
+                        </div>
+                        <div class="mb">
+                            <div class="plus_text">
+                                <em>开通PLUS会员专享</em>
+                                <span>全年360运费券礼包</span>
+                            </div>
+                            <a href="">立即开通</a>
+                        </div>
+                    </div>
+                    <div class="my_block">
+                        <div class="mt">
+                            <h3>我的钱包</h3>
+                        </div>
+                        <div class="mc1">
+                           <ul>
+                               <li>
+                                   <div class="num">4</div>
+                                   <div class="name">优惠券</div>
+                                   <div class="fuli">领券</div>
+                               </li>
+                               <li>
+                                <div class="num">4</div>
+                                <div class="name">京豆</div>
+                                <div class="fuli">赚京豆|花京豆</div>
+                            </li>
+                            <li>
+                                <div class="num yue">0</div>
+                                <div class="name">余额</div>
+                            </li>
+                            <li>
+                                <div class="num">4</div>
+                                <div class="name">本月待还</div>
+                                <div class="fuli">查看</div>
+                            </li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="my_order">
+                        <h3>我的订单</h3>
+                    </div>
+                    <div class="order_con">
+                        <a href="" class="order order1">
+                            <i class="iconfont icon-daifukuan tubiao"></i>
+                            <p>待付款</p>
+                        </a>
+                        <a href="" class="order order2">
+                            <i class="iconfont icon-daipingjia tubiao"></i>
+                            <p>待收货</p>
+                        </a>
+                        <a href="" class="order order3">
+                            <i class="iconfont icon-tuihuanhuo tubiao"></i>
+                            <p>待评价</p>
+                        </a>
+                        <a href="" class="order order4">
+                            <i class="iconfont icon-daishouhuo tubiao"></i>
+                            <p>退换/售后</p>
+                        </a>
+                        <a href="" class="order order5">
+                            <i class="iconfont icon-youjiantou- tubiao"></i>
+                            <p>全部订单</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="my_focus">
+                        <h3>我的关注</h3>
+                    </div>
+                    <div class="focus_con">
+                        <ul>
+                            <li>
+                                <div class="number"></div>
+                                <div class="desc">商品关注</div>
+                            </li>
+                            <li>
+                                <div class="number">1</div>
+                                <div class="desc">店铺关注</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 我的订单部分 -->
+            <div class="my_orders my_box">
+                <div class="order_tit">
+                    <h3>我的订单</h3></div>
+                <div class="order_cont">
+             <div class="cont_tit">
+                    <ul class="f_sort">
+                        <li>订单取消或者失效</li>
+                        <li>订单进行中未支付</li>
+                        <li>订单完成</li>
+                        <li class="bor_cur">所有订单</li>
+                    </ul>
+                </div>
+               
+                <!-- 订单取消 -->
+                <ul class="cancle_order dingdan"></ul>
+                <!-- 订单进行中 -->
+                <ul class="doing_order dingdan"></ul> 
+               
+                <!-- 订单完成 -->
+                <ul class="complete_order dingdan"></ul>
+                <!-- 全部订单 -->
+                <ul class="tal_det dingdan"></ul>
+                    <div class="empty_box">
+                        <i class="empty_icon"></i>
+                        <div class="e_cont">
+                            <h5>没有相关的订单信息哦~</h5>
+                            <div class="op_btns">
+                                <a href="" class="btn_0">查看全部订单</a>
+                                <a href="" class="btn_1">去首页看看</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+           
+            
+        </div> 
+        <!-- 我的钱包部分 -->
+            <div class="my_wallet my_box">
+                <div class="rich_title">
+                    <a href="">安全中心</a>
+                    <span>保障账号资产安全</span>
+                </div>
+                <div class="rich_cont">
+                    <ul>
+                        <li class="td1">
+                            <div class="td1_tit">
+                                我的可用余额:
+                            </div>
+                            <div class="td1_cont">
+                                
+                            </div>
+                        </li>
+                        <li class="td2">
+                            <div>
+                                <i class="iconfont icon-yueguanli"></i>
+                                <span class="tal_mon">全部余额:</span>
+                            </div>
+                            <div>
+                                <i class="iconfont icon-ka-suoding"></i>
+                                <span>锁定余额：0</span>
+                            </div>
+                            <div>
+                                <i class="iconfont icon-zhanghuyue"></i>
+                                <span>账户状态：有效</span>
+                            </div>
+                        </li>
+                        <li class="td3">
+                            <div class="add_ye">
+                                充值余额
+                            </div>
+                            <div class="red_tx">便捷提现，余额轻松享收益</div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="chongzhi" style="display: none;">
+                    <div class="cz_header">
+                    <h3>充 值 中 心</h3>
+                </div>
+                    <div class="panal">
+                     <ul>
+                        <li class="greenbr cur_bg">
+                            <strong class="money1">100元</strong>
+                            <br> 售价：100.00元
+                        </li>
+                        <li class="greenbr">
+                            <strong class="money1">500元</strong>
+                            <br> 售价：500.00元
+                        </li>
+                        <li class="greenbr">
+                            <strong class="money1">1000元</strong>
+                            <br> 售价：10000.00元
+                        </li>
+                        <li class="greenbr">
+                            <strong class="money1">2000元</strong>
+                            <br> 售价：2000.00元
+                        </li>
+                        <li class="greenbr">
+                            <strong  class="money1">3000元</strong>
+                            <br> 售价：3000.00元
+                        </li>
+                        <li class="greenbr">
+                            <strong class="money1">5000元</strong>
+                            <br> 售价：5000.00元
+                        </li>
+                        
+                     </ul>
+                    </div>
+                    <hr>
+                    <div class="ipt">
+                        <div class="ipt1">
+                            <span>用户名：</span>
+                            <input type="text" placeholder="输入要充值的用户名">
+                        </div>
+                        <div class="ipt2">
+                            <span>金额：</span>
+                            <input type="number" class="cz_je" placeholder="输入要充值的金额">
+                    </div>
+            </div>
+            <div class="btn3">充 值</div>
+                </div>
+            </div> 
+            
+            <!-- 我的关注部分 -->
+            <div class="my_attention my_box">
+               啊啊啊啊
+            </div>       
+    </div> 
+        </div>
+        
+    <!-- 主体部分 end -->
+    <!-- 底部模块制作 start -->
+    <footer class="footer">
+        <!-- 服务模块 -->
+    <div class="w1">
+        <div class="mod_service">
+            <ul>
+                <li>
+                   <img src="./images/duo_03.png">
+                    品类齐全，轻松购物
+                </li>
+                <li>
+                   <img src="./images/kuai_05.png">
+                    多仓直发，极速配送
+                </li>
+                <li>
+                   <img src="./images/hao_07.png">
+                    正品行货，精致服务
+                </li>
+                <li>
+                    <img src="./images/sheng_09.png">
+                    天天低价，畅选无忧
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="fenjiexian"></div>
+    <!-- 帮助模块 -->
+    <div class="mod_help">
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流程</a></dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="#">上门自提</a></dd>
+            <dd><a href="#">211限时达</a></dd>
+            <dd><a href="#">配送服务查询</a></dd>
+            <dd><a href="#">配送费收取标准</a></dd>
+            <dd><a href="#">海外配送</a></dd>
+        </dl>
+        <dl>
+            <dt>支付方式</dt>
+            <dd><a href="#">货到付款</a></dd>
+            <dd><a href="#">在线支付</a></dd>
+            <dd><a href="#">分期付款</a></dd>
+            <dd><a href="#">公司转账</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="#">售后政策</a></dd>
+            <dd><a href="#">价格保证</a></dd>
+            <dd><a href="#">退款说明</a></dd>
+            <dd><a href="#">返修/退换货</a></dd>
+            <dd><a href="#">取消订单</a></dd>
+        </dl>
+        <dl>
+            <dt>特色服务</dt>
+            <dd><a href="#">夺宝岛</a></dd>
+            <dd><a href="#">DIY装机</a></dd>
+            <dd><a href="#">延保服务</a></dd>
+            <dd><a href="#">京东E卡</a></dd>
+            <dd><a href="#">京东通信</a></dd>
+            <dd><a href="#">京东座智能</a></dd>
+        </dl>
+        <dl>
+            <dt>京东自营覆盖区县</dt>
+            <dd>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</dd>
+            <dd style="float: right;">查看详情 ></dd>
+        </dl>
+    </div>
+    <!-- 版权模块 -->
+    <div class="mod_copyright w">
+        <div class="links">
+        <div class="links1"><a href="#">关于我们</a></div>
+        <div class="links1"><a href="#">联系我们</a></div>
+        <div class="links1"><a href="#">联系客服</a></div>
+        <div class="links1"><a href="#">合作招聘</a></div>
+        <div class="links1"><a href="#">商家帮助</a></div>
+        <div class="links1"><a href="#">营销中心</a></div>
+        <div class="links1"><a href="#">手机京东</a></div>
+        <div class="links1"><a href="#">友情链接</a></div>
+        <div class="links1"><a href="#">销售联盟</a></div>
+        <div class="links1"><a href="#">京东社区</a></div>
+        <div class="links1"><a href="#">风险监测</a></div>
+        <div class="links1"><a href="#">隐私政策</a></div>
+        <div class="links1"><a href="#">京东公益</a></div>
+        <div><a href="#">English Site</a></div>
+        </div>
+        <div class="copyright">
+            <a href="">京公网安备 1100000200008号</a> | <a href="">京ICP备11041704号</a> | <a href="">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a> | <a href="">新出发京零 字第大120007号</a><br><a href="">互联网出版许可证编号新出网证(京)字150号</a> | <a href="">出版物经营许可证</a> | <a href="">网络文化经营许可经文网[2020]6112-1201号</a> | <a href="">违法和不良信息举报电话：4006561155</a><br><a href="">Copyright 2004 - 2022 京东JD.com 版权所有</a> | <a href="">消费者维权热线：4006067733</a> | <a href="">经营执照：网线平台备字(2018)第00003号</a><br><a href="">京东旗下网站：京东钱包</a> | <a href="">京东云</a> | <a href="">网络内容从业人员违法违规行为举报电话：4006561155-3</a>
+        </div>
+    </div>
+    </footer>
+    <!-- 底部模块制作 end -->
+</body>
+</html>

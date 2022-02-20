@@ -1,0 +1,430 @@
+/* 头部导航搜索部分 */
+#header{
+    height: 144px;
+    position: relative;
+}
+/* .w{
+    height: 144px;
+    position: relative;
+} */
+.logo{
+    position: absolute;
+    top: 50%;
+    height: 120px;
+    width: 190px;
+   margin-top:-51px; 
+}
+/* 热词部分 */
+.hotwords{
+    position: absolute;
+    left: 366px;
+    top: 73px;
+}
+.hotwords a{
+    padding-right: 6px;
+    font-size: 13px;
+}
+/* navitems部分 */
+.navitems{
+    position: absolute;
+    left: 128px;
+    top: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center; 
+}
+.hengxian{
+    width: 1263px;
+    height: 2px;
+    background-color: #f10215;
+    position: absolute;
+    left: 0;
+    top: 143px;
+}
+.navitems ul li{
+    float: left;
+    color: #333333;
+    height: 33px;
+    line-height: 33px;
+    margin: 0px 0px 0px 1px;
+}
+.navitems ul li:hover{
+    cursor: pointer
+}
+.bg_head{
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    background: #f30213;
+    color: rgb(255, 245, 245)!important;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* 左侧边栏导航部分 */
+.left-nav{
+    width: 190px;
+    height: 450px;
+    padding: 10px 0;
+    overflow: hidden;
+    position: absolute;
+    left: 129px;
+    top: 143px;
+    background-color: #fefefe;
+    z-index: 10;
+    display: none;
+}
+.left-nav ul>li {
+    height: 25px;
+    padding-left: 18px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333333;
+}
+.left-nav ul>li:hover{
+    color: #c81623;
+    cursor: pointer
+}
+.left-nav ul>li span{
+    font-size: 10px;
+    margin: 0px 1px;
+}
+.left-nav ul li a:hover{
+    color: #c81623;
+}
+/* 购物车模块 */
+.shopcar{
+    width: 116px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    position: absolute;
+    left: 891px;
+    top: 26px;
+    color: #e1251b;
+}
+.count{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e1251b;
+    color: #ffffff;
+    padding: 1px 3px;
+    border-radius: 7px;
+    min-width: 12px;
+}
+/* 二维码部分 */
+.erweima{
+    position: absolute;
+    left: 980px;
+    top: 8px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 3px 0px 8px 0px #f3f3f3;
+    padding: 8px;
+    background-color: #ffffff;
+}
+/* 手机通讯部分 */
+.w{
+    width: 1210px;
+}
+.cellphone{
+    position: relative;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    z-index: 6;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 125px;
+}
+.inner_cell,.inner_phone{
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.inner_cell span{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+}
+.inner_phone{
+    display: inline-block;
+    height: 22px;
+    padding: 0 4px 0 8px;
+    border: 1px solid #ddd;
+    line-height: 22px;
+    vertical-align: top;
+    background-color: #fff;
+}
+.phone_detail{
+    width: 1210px;
+    height: 165px;
+    margin: 0 auto;
+    border-top: 1px solid #DDD;
+    background: #FFF;
+    margin-bottom: 10px;
+    position: relative;
+}
+.brand,.size,.charge,.IPv6{
+    position: relative;
+    line-height: 40px;
+    border-bottom: 1px solid #DDD;
+    width: 1210px;
+    height: 40px;
+}
+.brand_hd{
+    float: left;
+    width: 100px;
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.brand_det{
+    float: left;
+    overflow: hidden;
+    zoom: 1;
+    padding-top: 4px;
+}
+.det_list{
+    float: left;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    height: 30px;
+    margin-left: 20px;
+}
+.det_list li{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 4px;
+    height: 26px;
+    line-height: 26px;
+    white-space: nowrap;
+    zoom: 1;
+}
+.content,.content_size,.content_charge,.content_ipv{
+    color: #005aa0;
+    height: 34px;
+    line-height: 34px;
+}
+.content:hover,.content_size:hover,.content_charge:hover,.content_ipv:hover{
+    cursor: pointer;
+}
+.brand_right{
+    position: absolute;
+    left: 1000px;
+}
+.brand_more,.chooses{
+    height: 22px;
+    padding: 0 4px 0 8px;
+    margin-top: 4px;
+    border: 1px solid #ddd;
+    line-height: 22px;
+    vertical-align: top;
+    background-color: #fff;
+    float: left;
+}
+.chooses{
+    margin-left: 13px;
+}
+.arrow_icon1::after{
+    content: '\ea3e';
+    font-family: 'icomoon';
+    color: rgb(207, 204, 204);
+    margin-right: 6px;
+}
+.arrow_icon2::after{
+    content: '\ea3a';
+    font-family: 'icomoon';
+    color: rgb(207, 204, 204);
+    margin-right: 6px;
+}
+.sort{
+    width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+    padding: 6px 8px;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
+    background: #f1f1f1;
+    zoom: 1;
+}
+.f_sort{
+    float: left;
+    margin-right: 13px;
+    margin-top: 3px;
+}
+.f_sort li{
+    float: left;
+    padding: 0 9px;
+    height: 23px;
+    border: 1px solid #CCC;
+    line-height: 23px;
+    margin-right: -1px;
+    background: #FFF;
+    color: #333;
+}
+.f_sort li:hover{
+    cursor: pointer;
+}
+.f_price{
+    position: relative;
+    float: left; 
+    width: 200px;
+    height: 25px;
+    margin-top: 3px;
+    margin-right: 12px;
+}
+.input_txt,.input_txt1{
+    width: 52px;
+    border-color: #ccc;
+    color: #333;
+    height: 17px;
+    line-height: 17px;
+    border: 1px solid #CCC;
+    padding: 3px;
+}
+.phone_list{
+    width: 1210px;
+    height: 2100px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+.phone_list li{
+    width: 240px;
+    height: 400px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-right: 62px;
+    margin-top: 10px;
+    
+}
+.imgs{
+    width: 240px;
+    height: 240px;
+}
+.price_box{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    height: 18px;
+    color: #e1251b;
+    text-align: left;
+    margin:12px 0;
+    padding-top: 5px;
+}
+.des{
+    overflow: hidden;
+    height: 20px;
+}
+.attr{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    margin-right: 7px;
+    font-size: 13px;
+    background: #f5f4f4;
+}
+.comment_box{
+    margin-top: 5px;
+}
+.comment{
+    color: #646fb0;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 14px;
+}
+.comment_xz{
+    font-size: 14px;
+}
+.bottom_desc{
+    margin-top: 5px;
+}
+.zy{
+    height: 16px;
+    line-height: 16px;
+    padding: 2px 3px;
+    margin-right: 3px;
+    overflow: hidden;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    background: #e23a3a;
+    color: #FFF;
+    cursor: default;
+    border-radius: 2px;
+}
+.fxg{
+    height: 14px;
+    line-height: 14px;
+    padding: 2px 3px;
+    border: 1px solid #4d88ff;
+    color: #4d88ff;
+    margin-right: 3px;
+    overflow: hidden;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    border-radius: 2px;
+}
+.z{
+    height: 14px;
+    line-height: 14px;
+    padding: 2px 3px;
+    border: 1px solid #e23a3a;
+    margin-right: 3px;
+    overflow: hidden;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    border-radius: 2px;
+    color: #e23a3a;
+
+}
+.guanzhu{
+        height: 14px;
+        line-height: 14px;
+        padding: 2px 3px;
+        border: 1px solid #e23a3a;
+        color: rgb(223, 26, 26);
+        margin-right: 3px;
+        overflow: hidden;
+        text-align: center;
+        font-style: normal;
+        font-size: 12px;
+        font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+        border-radius: 2px;
+}
+.phone_child:hover{
+    border-left: 1px solid #dfdbdb;
+    border-right: 1px solid #dad8d8;
+}
+.ygz{
+    height: 14px;
+    line-height: 14px;
+    padding: 2px 3px;
+    border: 1px solid #e23a3a;
+    color: #fff;
+    margin-right: 3px;
+    overflow: hidden;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    border-radius: 2px;
+    background-color: #e23a3a;
+}
+.f_sort .head_click{
+    border-color: #e4393c;
+    background: #e4393c;
+    color: #FFF;
+}

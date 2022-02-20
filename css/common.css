@@ -1,0 +1,250 @@
+/* 声明字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 设置顶部导航 */
+.shortcut{
+    background-color: #E3E4E5;
+    height: 31px;
+    line-height: 31px;
+    font-size: 12px;
+}
+.shortcut ul li{
+    float: left;
+}
+/* 版心 */
+.w,.w1{
+    width: 990px;
+    margin: 0 auto;
+}
+/* 位置的红色图标 */
+.arrow-icon0::after{
+    content: '\e922';
+    font-family: 'icomoon';
+    color: #f93031;
+    margin-right: 6px;
+}
+.box_l{
+    float: left;
+    padding: 0 3px;
+}
+.box_r{
+    float: right;
+}
+/* 鼠标滑到地名时，显示的部分 */
+.site{
+    left: 135px;
+    width: 300px;
+    height: 290px;
+    padding: 10px;
+    line-height: 24px;
+    top: 97px;
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    /* -webkit-box-shadow: 1px 2px 1px rgb(0 0 0 / 10%); */
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 10%);
+    z-index: 3;
+    display: none;
+}
+.site_detail ul{
+    height: 190px;
+    width: 300px;
+    /* margin-left: 9px; */
+    border-bottom: .5px solid rgb(216, 213, 213);
+}
+.district li{
+    display:inline-block;
+
+    width: 60px;
+
+    padding: 2px 0px;
+    text-align: center;
+    /* margin: 5px 2px 4px 4px; */
+}
+.bg_current{
+    background-color: #df2525;
+    color: white;
+    
+}
+.item:hover {
+    color: #c81623 ;
+     cursor: pointer;
+}
+.region{
+    margin: 10px 0 10px 10px;
+    
+}
+.region p{
+    margin: 9px 0;
+    color: #8f8f8f;
+}
+.region ul li{
+    float: left;
+    width: 120px;
+}
+.region a{
+    color: #999;
+}
+/* 鼠标滑到我的京东时，显示的部分 */
+.myjdlist{
+    display: none;
+    left: 552px;
+    width: 280px;
+    height: 161px;
+    top: 97px;
+    line-height: 24px;
+    z-index: 3;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 10%);
+}
+.myjdlist1{
+    padding: 10px 0 10px 15px;
+    overflow: hidden;
+}
+.myjdlist2{
+    padding: 10px 0 10px 15px;
+    overflow: hidden;
+    border-top: 1px solid #f1f1f1;
+}
+.fore1{
+    float: left;
+    width: 126px;
+}
+.fore1 a,.fore2 a{
+    display: inline-block;
+    width: 126px;
+
+}
+.fore2{
+    float: left;
+    width: 126px;
+}
+/* 超出部分字体省略 */
+.shenglue{
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        width:110px;
+}
+.shuxian{
+    width: 1px;
+    height: 12px;
+    background-color: #cccccc;
+    margin: 13px 12px 0px;
+}
+/* 向下的大于号图标 */
+.arrow-icon::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+    color: #999999;
+}
+/* 搜索框 */
+.search{
+    position: absolute;
+    left: 366px;
+    top: 25px;
+    width: 490px;
+    height: 36px;
+    border: 2px solid #E1251B;
+}
+.search input{
+    float: left;
+    width: 369px;
+    height: 32px;
+    padding: 2px 44px 2px 17px;
+}
+.search button{
+    float: left;
+    width: 60px;
+    height: 36px;
+    background-color: #E1251B;
+    color: rgb(255, 249, 249);
+}
+/* 底部模块 */
+.footer{
+    height: 490px;
+    background-color: #eaeaea;
+}
+/* 服务模块 */
+.mod_service{
+    height: 102px;
+    position: relative;
+}
+.mod_service ul{
+    position: absolute;
+    height: 42px;
+    line-height: 42px;
+    top: 50%;
+    margin-top: -21px;
+}
+.mod_service ul li{
+    float: left;
+    width: 230px;
+    color: #444;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mod_service ul li img{
+    width: 14%;
+}
+.fenjiexian{
+    border: 0.5px solid #dedede;
+}
+/* 帮助模块 */
+.mod_help{
+    width: 990px;
+    margin: 0 auto;
+    height: 160px;
+    padding: 20px;
+    border-bottom: 1px solid #dedede;
+}
+.mod_help dl{
+    float: left;
+    width: 158px;
+}
+.mod_help dl dt{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.mod_help dl dd{
+    margin-bottom: 3px;
+}
+.mod_help a{
+   color: #666666;
+}
+/* 版权模块 */
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px ;
+}
+.links{
+    margin-bottom: 15px;
+}
+.links1{
+    width: 68px;
+    border-right: 1px solid #dfd5ce;
+    float: left;
+}
+.links a{
+    color: #444;
+}
+.copyright{
+    line-height: 25px;
+    color: #999999;
+    
+}

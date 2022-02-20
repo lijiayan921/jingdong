@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ajax(options){
+            let defaults={
+                type:'get',
+                url:'',
+                data:{},
+                header:{
+                    'Content-Type':'application/x-www-form-urlencoded',
+                'Origin':'http://39.144.218.38'
+                },success: function(){},
+                error:function(){}
+            }
+            Object.assign(defaults,options);
+            let xhr=new XMLHttpRequest();
+            let params='';
+            for(let attr in defaults.data){
+                params+=attr+'='+defaults.data[attr]+'&'
+            }
+            params=params.substr(0,params.length-1);
+            if(defaults.type=='get'){
+                defaults.url=defaults.url+'?'+params; 
+            }
+            xhr.open(defaults.type,defaults.url);
+            xhr.setRequestHeader('Origin',defaults.header['Origin']);
+            if(defaults.type=='post'){
+                let contentType=defaults.header['Content-Type']
+                xhr.setRequestHeader('Content-Type',contentType);
+                
+                if(contentType=='application/json'){
+                    xhr.send(JSON.stringify(defaults.data));
+                }else{
+                    xhr.send(params);
+                }
+            }
+            else{
+                xhr.send();
+            }
+            
+            xhr.onload=function(){
+               let contentType= xhr.getResponseHeader('Content-Type')
+               let responseText=xhr.responseText
+               if(contentType.includes('application/json')){
+                    responseText=JSON.parse(responseText)
+               }
+                if(xhr.status==200){
+                    defaults.success(xhr.responseText);
+                }else{
+                    defaults.error(xhr.responseText)
+                }
+                
+            }
+        }
+        ajax({
+            type:'get',
+            url:'',
+            data: {
+                name:'zhangshan',
+                age:20
+            },
+            header:{
+                'Content-Type':'application/x-www-form-urlencoded',
+                'Origin':'http://39.144.218.38'
+            },
+            success:function(data){
+                 
+            },error:function(data){}
+        })
+    </script>
+</body>
+</html>

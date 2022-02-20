@@ -1,0 +1,209 @@
+/* 滚动到京东一下，年货到家后显示的头部 start */
+.search_fix{
+    /* position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0; */
+    width: 100%;
+    padding: 16px 0;
+    height: 87px;
+    cursor: pointer;
+    background-color: #fff;
+    /* box-shadow: 2px 2px 2px rgb(0 0 0 / 20%); */
+}
+.search_m{
+    position: relative;
+    width: 990px;
+    height: 50px;
+    left: 66px;
+    top: 0px;
+}
+.search_logo{
+    position: absolute;
+    left: 130px;
+    top: 3px;
+    width: 125px;
+    height: 40px;
+}
+.search_logo img{
+    width: 125px;
+    height: 40px;
+}
+/* 搜索框 */
+  .search_box{ 
+    position: relative;
+    left: 367px;
+    top: 6px;
+    width: 490px;
+    height: 36px;
+    border: 2px solid #E1251B;
+}
+.search_box input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 369px;
+    height: 32px;
+    padding: 2px 44px 2px 17px;
+}
+.search_box button{
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 36px;
+    background-color: #E1251B; 
+}  
+/* 购物车模块 */
+ .settleup{
+    width: 116px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    position: absolute;
+    left: 889px;
+    top: 7px;
+    color: #e1251b;
+}
+.settle_count{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e1251b;
+    color: #ffffff;
+    padding: 1px 3px;
+    border-radius: 7px;
+    min-width: 12px;
+} 
+/* navitems部分 */
+.navitems{
+    position: absolute;
+    left: 128px;
+    top: 117px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center; 
+}
+.hengxian{
+    width: 1263px;
+    height: 2px;
+    background-color: #f10215;
+    position: absolute;
+    left: 0;
+    top: 149px;
+}
+.navitems ul li{
+    float: left;
+    color: #333333;
+    height: 33px;
+    line-height: 33px;
+    margin: 0px 0px 0px 1px;
+}
+.navitems ul li:hover{
+    cursor: pointer
+}
+.bg_head{
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    background: #f30213;
+    color: rgb(255, 245, 245)!important;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* 左侧边栏导航部分 */
+.left-nav{
+    width: 190px;
+    height: 450px;
+    padding: 10px 0;
+    overflow: hidden;
+    position: absolute;
+    left: 129px;
+    top: 143px;
+    background-color: #fefefe;
+    z-index: 10;
+    display: none;
+}
+.left-nav ul>li {
+    height: 25px;
+    padding-left: 18px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333333;
+}
+.left-nav ul>li:hover{
+    color: #c81623;
+    cursor: pointer
+}
+.left-nav ul>li span{
+    font-size: 10px;
+    margin: 0px 1px;
+}
+.left-nav ul li a:hover{
+    color: #c81623;
+}
+/* 主体部分 */
+.main_content{
+    height: 145px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+.content{
+    width: 990px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px 0;
+    
+}
+.success_top{
+    margin-bottom: 20px;
+}
+.success_top h3{
+    color: #71b247;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.shop_img{
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+    border: 1px solid #e8e8e8;
+}
+.shop_img img{
+    width: 100%;
+}
+.shop_des{
+    float: left;
+    width: 350px;
+    margin: 0;
+}
+.phone_item{
+    width: 100%;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+}
+.right{
+    float: right;
+    margin-top: 20px;
+}
+.cart_button{
+    display: block;
+    float: left;
+    padding: 0 30px;
+    margin-right: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+    height: 34px;
+    line-height: 36px;
+    font-size: 16px;
+    position: relative;
+}

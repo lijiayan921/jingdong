@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>个人注册</title>
+</head>
+<style>
+    a {
+    color: #999999;
+    text-decoration: none
+}
+.header{
+    width: 1210px;
+    margin: 0 auto;
+}
+.header .logo{
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+    background: url(./images/logo.png) no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    
+}
+.login_title {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 34px;
+}
+.have_account{
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.have_account a{
+    color: #e22;
+}
+#content{
+    clear: both;
+}
+.jd_tips{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.jd_intips p{
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+}
+.a{
+    text-align: center;
+    font-size: 15px;
+    color:gainsboro;
+}
+.main{
+    height: 550px;
+}
+.register{
+    position: absolute;
+    height: 450px; width: 400px;
+    top: 495px; left: 682px;
+    margin-top: -300px;
+    margin-left: -250px;
+    text-align: center;
+}
+.b,.c{
+    margin-top: 30px;
+}
+.b input[type="text"],.b input[type="password"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.c{
+    width: 100%;
+    height: 40px;
+    border: none;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.c input[type="text"]{
+    flex: 1 1 0;
+    border: 1px solid gainsboro;
+}
+.c select{
+    border: 1px solid gainsboro;
+}
+.c button{
+    background-color: #e4393c;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid gainsboro;
+}
+.d{
+    font-size: 13px;
+    text-align: left;
+    }
+.e button{
+        width: 100%;
+        font-size: 24px;
+        color: #ffffff;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+        height: 50px;
+        background-color: #e4393c;
+        margin-top: 20px;
+}
+.g{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 13px;
+}
+a{
+   text-decoration: none;
+   color: #e4393c;
+}
+.mes_err,.pwd_err{
+    position: relative;
+    background: #ffebeb;
+    color: #e4393c;
+    border: 1px solid #faccc6;
+    padding: 3px 10px 3px 10px;
+    line-height: 15px;
+    height: auto;
+    display: none;
+    margin-top: 10px;
+}
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px ;
+}
+.bottom{
+    width: 100%;
+    background-color: #fff8f0;
+}
+.footer{
+    width: 990px;
+    margin: 0 auto;
+}
+.links{
+    margin-bottom: 15px;
+}
+.links1{
+    width: 68px;
+    border-right: 1px solid #dfd5ce;
+    float: left;
+}
+.links a{
+    color: rgb(145, 144, 144);
+    font-size: 13px;
+}
+.copyright{
+    line-height: 25px;
+    color: #999999;
+} 
+.mod_copyright .copyright a{
+    color: rgb(145, 144, 144);
+    font-size: 13px;
+}
+</style>
+<body>
+    <!-- 头部 start -->
+    <div class="header">
+        <div class="logo_con">
+            <a href="#" class="logo"></a>
+            <div class="login_title">欢迎注册</div>
+        </div>
+        <div class="have_account">
+        已有帐号？
+        <a href="login.html">请登录</a>
+        </div>
+    </div>
+    <!-- 头部 end -->
+    <!-- 浅黄色提醒部分 start -->
+    <div id="content">
+        <div class="jd_tips">
+            <div class="jd_intips">
+                <p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。</p>
+            </div>
+        </div>
+        <!-- 浅黄色提醒部分 end -->
+        <!-- 中间登录部分 start -->
+        <div class="main">
+        <div class="register">
+            <div class="a">—————————<span style="color: #666666;font-size: 25px;">注 册</span>—————————</div>
+           <form action="#">
+            <div class="b">
+                <input type="text" placeholder="用户名" class="text">
+            </div>
+            <span class="mes_err"></span>
+            <div class="b">
+                <input type="password" placeholder="密码（6-16个字符组成，区分大小写）" class="pwd">
+            </div>
+            <span class="pwd_err"></span>
+            <!-- <div class="c">
+                <select>
+                    <option>中国大陆</option>
+                    <option>港澳台</option>
+                </select><input type="text" placeholder="填写常用手机号">
+            </div>
+            <div class="c"><input type="text" placeholder="请输入短信验证码"><button>点击获取</button></div> -->
+            <div class="d">
+                <p><input type="checkbox">我已同意<a href="#" >《京东用户使用协议》</a>和<a href="#">《京东隐私政策》</a></p>
+            </div>
+            <div class="e">
+                <button class="btn">注 册</button>
+            </div>
+            <div class="g">
+                <a href="login.html">已有帐号，直接登录></a>
+            </div>
+            </form>
+            </div></div>
+            <!-- 中间登录部分 end -->
+            <!-- 底部版权部分 start -->
+            <div class="bottom">
+        <footer class="footer">
+            <!-- 版权模块 -->
+            <div class="mod_copyright w">
+                <div class="links">
+                <div class="links1"><a href="#">关于我们</a></div>
+                <div class="links1"><a href="#">联系我们</a></div>
+                <div class="links1"><a href="#">联系客服</a></div>
+                <div class="links1"><a href="#">合作招聘</a></div>
+                <div class="links1"><a href="#">商家帮助</a></div>
+                <div class="links1"><a href="#">营销中心</a></div>
+                <div class="links1"><a href="#">手机京东</a></div>
+                <div class="links1"><a href="#">友情链接</a></div>
+                <div class="links1"><a href="#">销售联盟</a></div>
+                <div class="links1"><a href="#">京东社区</a></div>
+                <div class="links1"><a href="#">风险监测</a></div>
+                <div class="links1"><a href="#">隐私政策</a></div>
+                <div class="links1"><a href="#">京东公益</a></div>
+                <div><a href="#">English Site</a></div>
+                </div>
+                <div class="copyright">
+                    <a href="">京公网安备 1100000200008号</a> | <a href="">京ICP备11041704号</a> | <a href="">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a> | <a href="">新出发京零 字第大120007号</a><br><a href="">互联网出版许可证编号新出网证(京)字150号</a> | <a href="">出版物经营许可证</a> | <a href="">网络文化经营许可经文网[2020]6112-1201号</a> | <a href="">违法和不良信息举报电话：4006561155</a><br><a href="">Copyright 2004 - 2022 京东JD.com 版权所有</a> | <a href="">消费者维权热线：4006067733</a> | <a href="">经营执照：网线平台备字(2018)第00003号</a><br><a href="">京东旗下网站：京东钱包</a> | <a href="">京东云</a> | <a href="">网络内容从业人员违法违规行为举报电话：4006561155-3</a>
+                </div>
+            </div>
+            </footer></div>
+            <!-- 底部版权部分 end -->
+    <script>
+        let text=document.querySelector('.text');
+        let pwd=document.querySelector('.pwd');
+        let btn=document.querySelector('.btn');
+        let mes_err=document.querySelector('.mes_err');
+        let pwd_err=document.querySelector('.pwd_err');
+        btn.addEventListener('click',function(){
+            const xhr=new XMLHttpRequest();
+            xhr.open('POST','http://139.155.69.249:8081/v1/user/register');
+            xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+            xhr.setRequestHeader('Origin','http://39.144.218.38');
+            xhr.send('username='+text.value+'&password='+pwd.value+'');
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState===4){
+                    if(xhr.status>=200&&xhr.status<300){
+                        let str=xhr.response;
+                        if(str.includes('存在')){
+                            mes_err.style.display='block';
+                            let obj=JSON.parse(str);
+                            mes_err.innerHTML=obj.data;
+                        }
+                        // console.log(typeof(JSON.parse(xhr.response)));
+                        else if(str.includes('密码')){
+                            pwd_err.style.display='block';
+                            let obj=JSON.parse(str);
+                            pwd_err.innerHTML=obj.data;
+                        }
+                        else {
+                            window.location.href="login.html";
+                        }
+                        // pwd_err.style.display='block';   
+                    }
+                }
+            }
+            })
+    </script>
+</body>
+</html>

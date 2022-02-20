@@ -1,0 +1,685 @@
+.navs{
+    width: 1090px;
+    height: 82px;
+    background-color: #fff;
+    color: #333;
+}
+.navs img{
+    float: left;
+    width: 150px;
+    height: 65px;
+    margin-top: 10px;
+}
+.title{
+    float: left;
+    padding: 40px 0 0 16px;
+    font-size: 20px;
+}
+.navitems{
+    float: left;
+    margin-left: 42px;
+    padding: 43px 0 0 25px;
+    width: 300px;
+    color: #333;
+}
+.navitems span{
+    position: relative;
+    padding-right: 31px;
+    /* height: 30px;
+    line-height: 30px; */
+    font-size: 15px;
+    text-align: center;
+}
+.nav_r{
+    float: right;
+    width: 386px;
+}
+/* 搜索框 */
+.search_box{ 
+    position: relative;
+    left: 8px;
+    top: -32px;
+    width: 210px;;
+    height: 28px;
+    border: 2px solid #E1251B;
+}
+.search_box input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 140px;
+    height: 24px;
+    padding: 2px 44px 2px 17px;
+}
+.search_box button{
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 28px;
+    background-color: #E1251B; 
+}  
+/* 购物车模块 */
+ .settleup{
+    width: 116px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    position: absolute;
+    left: 974px;
+    top: 65px;
+    color: #e1251b;
+}
+.settle_count{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e1251b;
+    color: #ffffff;
+    padding: 1px 3px;
+    border-radius: 7px;
+    min-width: 12px;
+} 
+/* 主体部分 */
+.contain{
+    padding-bottom: 50px;
+    background-color: #f0f3ef;
+    height: 1000px;
+}
+.my_main{
+    width: 1190px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.sub {
+    width: 190px;
+    float: left;
+    
+}
+.none{
+    display: none;
+}
+/* 主体左侧菜单部分 */
+.my_menu{
+    width: 170px;
+    background-color: #fff;
+    color: #333;
+}
+.my_menu dl{
+    padding: 15px 20px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.my_menu dt{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.my_menu dt:hover{
+    cursor: pointer;
+    color: #c81623;
+}
+.tit_current{
+
+    color: #e21724;
+}
+.my_menu dd{
+    font-size: 14px;
+    line-height: 32px;
+}
+.my_menu a{
+    position: relative;
+    color: #333;
+    transition: all .4s ease;
+}
+.main_box{
+    height: 800px;
+    width: 1000px;
+    float: left;
+}
+/* 第一个盒子 */
+.box0{
+    padding: 20px 0;
+    height: 243px;
+}
+.my_user{
+    /* overflow: hidden;
+    zoom: 1; */
+    float: left;
+    margin-bottom: 0;
+    width: 250px;
+    height: 243px;
+   box-shadow: 2px 2px 10px rgb(0 0 0 / 30%); 
+}
+.mc{
+    position: relative;
+    height: 187px;
+    text-align: center;
+    background-color: #e2231a;
+}
+.mc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 247px;
+    height: 60px;
+    background: url(../images/jd.png) no-repeat 0 0;
+}
+.avatar{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin: 20px auto;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    box-shadow: 3px 2px 10px 0 rgb(79 5 1 / 84%);
+    overflow: hidden;
+}
+.avatar img{
+    width: 64px;
+    height: 64px;
+}
+.user{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 20px;
+    overflow: hidden;
+    font: 700 18px/20px Arial;
+    color: #fff;
+}
+.score a{
+    padding: 0 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 12px;
+}
+.mb{
+    padding: 10px 20px;
+    height: 36px;
+    background-color: #232331;
+}
+.plus_text{
+    float: left;
+    margin-right: 10px;
+    color: #f4ca3a;
+}
+.plus_text em{
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+}
+.plus_text span{
+    display: block;
+}
+.my_block{
+    background-color: #fff;
+}
+.mt h3{
+    padding: 0 294px;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #f0f3ef;
+    overflow: visible;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+}
+.my_block ul{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 43px 28px 43px;
+    height: 129px;
+    overflow: hidden;
+}
+.my_block ul li{
+    color: #333;
+}
+.num{
+    padding-top: 10px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.fuli{
+    color: #4184e8;
+    margin-top: 50px;
+}
+/* 第二个盒子 */
+/* 我的订单部分 */
+/* 订单不同状态 */
+.f_sort .bor_cur{
+    padding-bottom: 0;
+    color: #e4393c;
+    border-bottom: 2px solid #e4393c;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dingdan{
+margin-top: 8px;
+}
+.box1{
+    width: 694px;
+    float: left;
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.my_order{
+    padding: 0 20px;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #f0f3ef;
+    overflow: visible;
+}
+.my_order h3{
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+.order_con{
+    padding: 15px 20px;
+    height: 90px;
+}
+.order{
+    width: 90px;
+    float: left;
+    box-sizing: border-box;
+    padding: 13px 0 0;
+    margin: 0 20px;
+    height: 90px;
+    text-align: center;
+    color: #333;
+    transition: all .4s ease;
+}
+.order_con p{
+    font-size: 14px;
+}
+.order i{
+    font-size: 34px;
+    margin: 3px auto;
+    width: 44px;
+    height: 35px;
+}
+.order i:hover{
+    color: #d12a21;
+}
+.order span{
+    padding-top: 10px;
+    height: 16px;
+    line-height: 16px;
+}
+/* 我的关注部分 */
+.box2{
+    width: 286px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.my_focus{
+    padding: 0 20px;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #f0f3ef;
+    overflow: visible;
+}
+.my_focus h3{
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+.focus_con ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 60px;
+}
+.focus_con li{
+    text-align: center;
+    height: 60px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+}
+.desc:hover{
+    cursor: pointer;
+    color: #c81623;
+}
+.my_orders,.my_wallet,.my_attention{
+    display: none;
+}
+/* 我的订单部分 */
+.my_orders{
+    background-color: #fff;
+    margin-bottom: 20px;
+    height: 58px;
+    width: 1000px;
+    float: left;
+}
+.my_orders h3{
+    font-size: 14px;
+    color: #666;
+    font-family: '\5b8b\4f53';
+    line-height: 58px;
+    padding-left: 20px;
+}
+.order_cont{
+    width: 1000px;
+    /* height: 500px; */
+    margin-top: 20px;
+    background-color: #fff;
+}
+.cont_tit{
+    height: 50px;
+   
+}
+.f_sort li{
+    float: left;
+    padding-right: 20px;
+    color: #333;
+    font-size: 13px;
+    padding-left: 20px;
+    line-height: 30px;
+    padding-top: 9px;
+}
+.f_sort li:hover{
+    cursor: pointer;
+}
+.order_title{
+    background: #f5f5f5;
+    height: 31px;
+    line-height: 31px;
+    color: #aaa;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    border-bottom-color: #f5f5f5;
+    font-size: 13px;
+}
+.dealtime{
+    margin-right: 10px;
+    padding: 15px 30px ;
+}
+.goods_box{
+    padding: 0px 0px 0px 62px;
+    height: 112px;
+    width: 616px;
+    margin-top: 17px;
+}
+.p-goods {
+    float: left;
+    margin-top: 8px;
+    width: 333px;
+    margin-top: 8px;
+}
+.p-goods img{
+    float: left;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+}
+.p-goods p{
+    padding-left: 103px;
+}
+.p-msg {
+    float: left;
+    width: 210px;
+    margin: 0 10px;
+}
+
+.p-price {
+    margin-top: 8px;
+    margin-left: 19px;
+    float: left;
+    width: 110px;
+}
+.count,.store{
+    float: left;
+    margin-right: 28px;
+    margin-top: 9px;
+}
+.order_title{
+    background: #f5f5f5;
+    height: 31px;
+    line-height: 31px;
+    color: #aaa;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    border-bottom-color: #f5f5f5;
+    font-size: 13px;
+}
+.dealtime,.dealtimes{
+    margin-right: 10px;
+    padding: 15px 30px ;
+}
+.goods_box{
+    margin-left: 30px;
+    width: 680px;
+    padding-top: 10px;
+}
+.p-goods{
+    width: 447px;
+}
+.p-goods img{
+    margin-right: 20px;
+}
+.p-msg{
+    width: 256px;
+    margin: 3px 69px 10px 0px;
+}
+.order_sums{
+    
+    padding-right: 90px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(207, 207, 207);
+    font-size: 15px;
+}
+.user_name,.adress,.tal_money,.user_names,.adresss,.tal_moneys{
+    float: right;
+    margin-right: 30px;
+}
+/* 空订单 */
+.empty_box{
+    position: relative;
+    width: 400px;
+    margin: 110px auto 170px;
+    height: 400px;
+    display: none;
+}
+.empty_icon{
+    display: block;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background: url(../images/empty-icon05.png) no-repeat;
+}
+.e_cont{
+    position: absolute;
+    left: 146px;
+    top: 60px;
+    width: 250px;
+}
+.e_cont h5{
+    font-family: "Microsoft YaHei";
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.op_btns{
+    margin-top: 10px;
+}
+.btn_0{
+    color: #323333;
+    text-decoration: none;
+    background-color: #F7F7F7;
+    background-image: linear-gradient(to bottom,#F7F7F7 0,#F3F2F2 100%);
+    border-radius: 2px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #ddd;
+    padding: 2px 14px 3px;
+}
+.btn_1{
+    background-color: #e74649;
+    color: #fff;
+    background-image: linear-gradient(to bottom,#e74649 0,#df3134 100%);
+    border-radius: 2px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 15px 4px;
+}
+/* 我的余额部分 */
+.my_wallet{
+    float: left;
+    height: 600px;
+    padding: 0 20px 40px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 900px;
+}
+.rich_title{
+    padding-top: 25px;
+    color: #999;
+    font-size: 12px;
+    text-align: right;
+}
+.rich_title a{
+    color: #0dacfe;
+}
+.rich_cont{
+    padding-left: 30px;
+}
+.rich_cont ul{
+    height: 140px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .td1{
+    margin-right: 400px;
+} */
+.td1_tit{
+    color: #474e5d;
+    font-weight: 700;
+    font-size: 16px;
+}
+.td1_cont{
+    font-size: 50px;
+}
+.add_ye{
+    border-radius: 3px;
+    width: 218px;
+    height: 42px;
+    margin-bottom: 7px;
+    background-color: #e1251b;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 42px;
+}
+.add_ye:hover{
+    cursor: pointer;
+}
+.red_tx{
+    color: #e4393c;
+}
+/* 充值页面 */
+.cz_header h3{
+    height: 50px;
+    /* background-color: #e1251b; */
+    color: rgb(92, 91, 91);
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px auto;
+    font-size: 20px;
+    border-bottom:1px solid #eee ;
+}
+.panal ul{
+    width: 600px;
+    height: 200px;
+    margin: 50px 168px;
+}
+.panal .cur_bg{
+    background-color:#0a0;
+    color:#fff
+}
+
+.panal li{
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-color: #0a0;
+    color: #0a0;
+    width: 150px;
+    float: left;
+    height: 54px;
+    padding-top: 9px;
+    margin: 10px 30px 10px 10px;
+}
+.panal li:hover{
+    cursor: pointer;
+}
+.ipt{
+    height: 115px;
+     border-bottom: 1px solid #eee;
+     width: 600px;
+     margin: 0 auto;
+     text-align: center;
+}
+.ipt span{
+    display: inline-block;
+    width: 57px;
+}
+.ipt input{
+    margin: 10px 10px;
+    font-size: 13px;
+    border: 1px solid #eee;
+    padding: 8px 0px 8px 25px;
+}
+.btn3{
+    height: 50px;
+    background-color: #e1251b;
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px auto;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.btn3:hover{
+    cursor: pointer;
+}
+
+
